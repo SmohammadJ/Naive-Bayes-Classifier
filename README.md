@@ -1,2 +1,4 @@
 # Naive-Bayes-Classifier
 Implementation of parameter learning for NB classifier and applying it to predict the party party affiliation of either Democrat or Republican of US Congressmen (the class variable) based on their votes for 16 different measures (the attribute variables) shown in Table 1. Not all congressmen voted on all 16 measures, so sometimes entries in this dataset will have missing attributes; however, we will still be able to utilize our Bayes Network to accurately classify these examples. The class and attribute variables are all binary with 0, 1 orresponding to a no and yes vote respectively. When training the models, some of the parameters may not have enough examples for accurate estimation. To mitigate this, we will use a Beta(0.1; 0.1) prior on the parameters of the vote distributions.
+
+![Alt text](votes.PNG?raw=true "Votes")
