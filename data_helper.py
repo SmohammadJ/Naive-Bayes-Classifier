@@ -1,8 +1,8 @@
 import numpy as np
 import random
 
-vote_data_path = './data/house-votes-84.complete.data'
-incomplete_data_path = './data/house-votes-84.incomplete.data'
+vote_data_path = './house-votes-84.complete.data'
+incomplete_data_path = './house-votes-84.incomplete.data'
 
 def load_vote_data():
   '''
